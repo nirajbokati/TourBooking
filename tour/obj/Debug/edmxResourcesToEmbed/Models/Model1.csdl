@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TourBookingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="role_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Role" Relationship="Self.R_10" FromRole="Login" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="role_id" />
+    </Key>
+    <Property Name="role_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="role1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Logins" Relationship="Self.R_10" FromRole="Role" ToRole="Login" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblBooking">
+    <Key>
+      <PropertyRef Name="BookingId" />
+    </Key>
+    <Property Name="BookingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TourId" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Contact" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Remark" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DetailInfo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tblDayActivity">
+    <Key>
+      <PropertyRef Name="DayID" />
+    </Key>
+    <Property Name="DayID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DayTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Tour_ID" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="Extra" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ExtraTwo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblPackage" Relationship="Self.FK_tblDayActivity_tblPackage" FromRole="tblDayActivity" ToRole="tblPackage" />
+  </EntityType>
+  <EntityType Name="tblGallery">
+    <Key>
+      <PropertyRef Name="Image_ID" />
+    </Key>
+    <Property Name="Image_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tour_ID" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="Extra" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ExtraTwo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblPackage" Relationship="Self.FK_tblGallery_tblPackage" FromRole="tblGallery" ToRole="tblPackage" />
+  </EntityType>
+  <EntityType Name="tblPackage">
+    <Key>
+      <PropertyRef Name="Tour_ID" />
+    </Key>
+    <Property Name="Tour_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tour_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Package_Image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Packagedetails" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="OfferInclude" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="OfferExclude" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="StartDate" Type="DateTime" Precision="0" />
+    <Property Name="EndDate" Type="DateTime" Precision="0" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Extra" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Extratwo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblDayActivities" Relationship="Self.FK_tblDayActivity_tblPackage" FromRole="tblPackage" ToRole="tblDayActivity" />
+    <NavigationProperty Name="tblGalleries" Relationship="Self.FK_tblGallery_tblPackage" FromRole="tblPackage" ToRole="tblGallery" />
+  </EntityType>
+  <EntityType Name="tblReview">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Review" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Tour_ID" Type="Int32" />
+    <Property Name="Extra" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="R_10">
+    <End Role="Role" Type="Self.Role" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Login" Type="Self.Login" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="role_id" />
+      </Principal>
+      <Dependent Role="Login">
+        <PropertyRef Name="role_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblDayActivity_tblPackage">
+    <End Role="tblPackage" Type="Self.tblPackage" Multiplicity="0..1" />
+    <End Role="tblDayActivity" Type="Self.tblDayActivity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPackage">
+        <PropertyRef Name="Tour_ID" />
+      </Principal>
+      <Dependent Role="tblDayActivity">
+        <PropertyRef Name="Tour_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblGallery_tblPackage">
+    <End Role="tblPackage" Type="Self.tblPackage" Multiplicity="0..1" />
+    <End Role="tblGallery" Type="Self.tblGallery" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblPackage">
+        <PropertyRef Name="Tour_ID" />
+      </Principal>
+      <Dependent Role="tblGallery">
+        <PropertyRef Name="Tour_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TourBookingEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Logins" EntityType="Self.Login" />
+    <EntitySet Name="Roles" EntityType="Self.Role" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="tblBookings" EntityType="Self.tblBooking" />
+    <EntitySet Name="tblDayActivities" EntityType="Self.tblDayActivity" />
+    <EntitySet Name="tblGalleries" EntityType="Self.tblGallery" />
+    <EntitySet Name="tblPackages" EntityType="Self.tblPackage" />
+    <EntitySet Name="tblReviews" EntityType="Self.tblReview" />
+    <AssociationSet Name="R_10" Association="Self.R_10">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="Login" EntitySet="Logins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblDayActivity_tblPackage" Association="Self.FK_tblDayActivity_tblPackage">
+      <End Role="tblPackage" EntitySet="tblPackages" />
+      <End Role="tblDayActivity" EntitySet="tblDayActivities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblGallery_tblPackage" Association="Self.FK_tblGallery_tblPackage">
+      <End Role="tblPackage" EntitySet="tblPackages" />
+      <End Role="tblGallery" EntitySet="tblGalleries" />
+    </AssociationSet>
+    <FunctionImport Name="DbBookingSelect" ReturnType="Collection(TourBookingModel.DbBookingSelect_Result)">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="DbDayActivitySelect" ReturnType="Collection(TourBookingModel.DbDayActivitySelect_Result)" />
+    <FunctionImport Name="DbDayActivitySelectPac" ReturnType="Collection(TourBookingModel.DbDayActivitySelectPac_Result)">
+      <Parameter Name="Tour_Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DbGallerySelect" ReturnType="Collection(TourBookingModel.DbGallerySelect_Result)" />
+    <FunctionImport Name="DbGallerySelectPac" ReturnType="Collection(TourBookingModel.DbGallerySelectPac_Result)">
+      <Parameter Name="Tour_Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DbPackageSelect" ReturnType="Collection(TourBookingModel.DbPackageSelect_Result)" />
+    <FunctionImport Name="DbPackageSelectPac" ReturnType="Collection(TourBookingModel.DbPackageSelectPac_Result)">
+      <Parameter Name="Tour_Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DbRevieSelect" ReturnType="Collection(TourBookingModel.DbRevieSelect_Result)" />
+    <FunctionImport Name="DbReviewSelectPac" ReturnType="Collection(TourBookingModel.DbReviewSelectPac_Result)">
+      <Parameter Name="Tour_Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="LoginByUsernamePassword" ReturnType="Collection(TourBookingModel.LoginByUsernamePassword_Result)">
+      <Parameter Name="username" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(TourBookingModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(TourBookingModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="DbBookingSelect_Result">
+    <Property Type="Int32" Name="BookingId" Nullable="false" />
+    <Property Type="Int32" Name="TourId" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Contact" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Remark" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="DetailInfo" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="DbDayActivitySelect_Result">
+    <Property Type="Int32" Name="DayID" Nullable="false" />
+    <Property Type="String" Name="DayTitle" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="Tour_ID" Nullable="true" />
+    <Property Type="String" Name="Description" Nullable="true" />
+    <Property Type="Boolean" Name="Active" Nullable="true" />
+    <Property Type="String" Name="Extra" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ExtraTwo" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="DbDayActivitySelectPac_Result">
+    <Property Type="Int32" Name="DayID" Nullable="false" />
+    <Property Type="String" Name="DayTitle" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="Tour_ID" Nullable="true" />
+    <Property Type="String" Name="Description" Nullable="true" />
+    <Property Type="Boolean" Name="Active" Nullable="true" />
+    <Property Type="String" Name="Extra" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ExtraTwo" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="DbGallerySelect_Result">
+    <Property Type="Int32" Name="Image_ID" Nullable="false" />
+    <Property Type="Int32" Name="Tour_ID" Nullable="true" />
+    <Property Type="String" Name="Description" Nullable="true" />
+    <Property Type="Boolean" Name="Active" Nullable="true" />
+    <Property Type="String" Name="Extra" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ExtraTwo" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="DbGallerySelectPac_Result">
+    <Property Type="Int32" Name="Image_ID" Nullable="false" />
+    <Property Type="Int32" Name="Tour_ID" Nullable="true" />
+    <Property Type="String" Name="Description" Nullable="true" />
+    <Property Type="Boolean" Name="Active" Nullable="true" />
+    <Property Type="String" Name="Extra" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ExtraTwo" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="DbPackageSelect_Result">
+    <Property Type="Int32" Name="Tour_ID" Nullable="false" />
+    <Property Type="String" Name="Tour_Name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Package_Image" Nullable="true" />
+    <Property Type="String" Name="Packagedetails" Nullable="true" />
+    <Property Type="String" Name="OfferInclude" Nullable="true" />
+    <Property Type="String" Name="OfferExclude" Nullable="true" />
+    <Property Type="DateTime" Name="StartDate" Nullable="true" />
+    <Property Type="DateTime" Name="EndDate" Nullable="true" />
+    <Property Type="String" Name="Status" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="Price" Nullable="true" />
+    <Property Type="String" Name="Extra" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Extratwo" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="DbPackageSelectPac_Result">
+    <Property Type="Int32" Name="Tour_ID" Nullable="false" />
+    <Property Type="String" Name="Tour_Name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Package_Image" Nullable="true" />
+    <Property Type="String" Name="Packagedetails" Nullable="true" />
+    <Property Type="String" Name="OfferInclude" Nullable="true" />
+    <Property Type="String" Name="OfferExclude" Nullable="true" />
+    <Property Type="DateTime" Name="StartDate" Nullable="true" />
+    <Property Type="DateTime" Name="EndDate" Nullable="true" />
+    <Property Type="String" Name="Status" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="Price" Nullable="true" />
+    <Property Type="String" Name="Extra" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Extratwo" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="DbRevieSelect_Result">
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Review" Nullable="true" />
+    <Property Type="Int32" Name="Tour_ID" Nullable="true" />
+    <Property Type="String" Name="Extra" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="DbReviewSelectPac_Result">
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Review" Nullable="true" />
+    <Property Type="Int32" Name="Tour_ID" Nullable="true" />
+    <Property Type="String" Name="Extra" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="LoginByUsernamePassword_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="username" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="password" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="role_id" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Role Base Accessibility - Admin Only Link";
+}
+
+<div class="jumbotron">
+    <h1>Welcome</h1>
+    <p class="lead">Admin "@User.Identity.Name".</p>
+    <p>@ViewBag.Message</p>
+</div>
+
+
+@Html.Action("_package")

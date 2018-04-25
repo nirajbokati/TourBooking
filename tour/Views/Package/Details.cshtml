@@ -1,0 +1,754 @@
+﻿@model tour.Models.PackageModel
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<style>
+   
+    h2 {
+        margin-top: 2px;
+        font-weight: 500 !important;
+        font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+        font-size: 28px !important;
+        line-height: 32px !important;
+        letter-spacing: -0.6px !important;
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+        color: #484848 !important;
+        text-decoration: none;
+    }
+
+    body {
+        margin-top: 100px;
+        background-color: #eeeeee;
+    }
+
+    .tabbable-panel {
+       
+        margin-bottom: 20px;
+    }
+
+    /* Default mode */
+    .tabbable-line > .nav-tabs {
+        border: none;
+        margin: 0px;
+        border: 1px solid #eeeeee;
+        background-color: #f2f4f7;
+    }
+
+        .tabbable-line > .nav-tabs > li {
+          
+            border-bottom:2px solid #eeeeee!important;
+            
+        }
+
+            .tabbable-line > .nav-tabs > li > a > span {
+               
+                color: #737373;
+                font-size: 16px;
+                font-weight: 600;
+                padding: 20px 150px 20px 136px;
+                text-align: center;
+            }
+
+            .tabbable-line > .nav-tabs > li > a > i {
+                color: #a6a6a6;
+              
+            }
+
+    .nav-tabs .nav-link.active {
+        background-color: #ff5a5f;
+        color: white;
+        text-align: center !important;
+    }
+
+    .icon {
+        color: #333 !important;
+        height: 60px;
+    }
+
+    link.active {
+        color: #464a4c;
+        background-color: #fff;
+        border-color: #ddd #ddd #fff;
+    }
+
+    .nav-tabs .nav-item.show .nav-link .nav-link, .nav-tabs .nav-link {
+        color: black;
+        text-align: center !important;
+        height: 4.5rem;
+    }
+
+   
+
+    .nav-tabs > li > a {
+        padding: 0px;
+    }
+
+    .nav-tabs > li > a {
+        margin-right: 2px;
+        line-height: 1.428571429;
+        border: 0px !important;
+        border-radius: 0px !important;
+        color: #484848 !important;
+    }
+
+
+    .nav-tabs .nav-link {
+        border: 1px solid transparent;
+        border-top-right-radius: .25rem;
+        border-top-left-radius: .25rem;
+    }
+
+    .nav-link {
+        display: block;
+        padding: .5em 1em;
+    }
+
+    .tabbable-line > .nav-tabs > li.active {
+        background-color: #ff5a5f;
+        position: relative;
+    }
+
+    .nav-tabs > a > span {
+        color: #333 !important;
+    }
+
+  
+
+        .tabbable-line > .nav-tabs > li > a > span:hover {
+            background-color: #fff !important;
+        }
+
+
+        .tabbable-line > .nav-tabs > li.active > a > span:hover {
+            background-color: #ff5a5f !important;
+        }
+
+
+
+        .tabbable-line > .nav-tabs > li.active > a > span {
+            border: 0;
+            color: #fff !important;
+            background-color: #ff5a5f;
+            border: none !important;
+        }
+
+
+
+        .tabbable-line > .nav-tabs > li.active > a > i {
+            color: #404040;
+        }
+
+    .tabbable-line > .tab-content {
+        background-color: #fff;
+        border: 0;
+        border-top: 1px solid #eee;
+        padding: 30px 50px;
+    }
+
+    .portlet .tabbable-line > .tab-content {
+        padding-bottom: 0;
+    }
+
+
+    .box {
+        background-color: #fff;
+        height: 100%;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+        border-radius: 2px;
+    }
+
+
+    .glyphicon {
+        color: #484848;
+    }
+
+
+    .table > thead > tr > th {
+        border: 1px solid #fff;
+    }
+
+    .table1 > thead > tr > th {
+        border: 1px solid #fff;
+        text-align: center
+    }
+
+
+    .table > tbody > tr > td {
+        border: 1px solid #fff;
+    }
+
+    /*tab css end here*/
+
+    .single {
+        background: #fff;
+    }
+
+        .single ul li {
+            margin-bottom: 0;
+            border-bottom: 1px solid #484848;
+            padding: 15px;
+        }
+
+    .offer {
+        background-color: #fff;
+    }
+
+        .offer > ul > li {
+            border-bottom: none !important;
+            padding: 3px;
+        }
+
+    .single li a {
+        color: #666;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 40px;
+        display: block;
+        text-decoration: none;
+        background-color: #fff;
+    }
+
+        .single li a:hover {
+            color: #ff173c;
+        }
+
+    .single li:last-child a {
+        border-bottom: 0;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .day {
+        margin-left: -430px;
+        font-weight: 600 !important;
+        font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+        font-size: 16px !important;
+        line-height: 22px !important;
+        letter-spacing: -0.6px !important;
+        color: #484848 !important;
+    }
+
+
+    .btn {
+        text-decoration: none;
+        color: black;
+        border: 1px solid;
+        border-radius: 50px;
+        transition: .5s;
+    }
+
+
+
+    .modal-body {
+        background-color: #f2f4f7;
+    }
+
+
+    .panel-title {
+        text-align: left !important;
+        padding: 10px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .panel > a {
+        text-decoration: none;
+        color: #484848;
+        font-weight: 800;
+    }
+
+    header {
+        padding: 50px 0;
+    }
+
+        header h1 {
+            color: white;
+            text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            font-size: 40px;
+            letter-spacing: 0.4px;
+            font-family: "Raleway", sans-serif;
+        }
+
+
+    /*Gallery CSS BEGIN*/
+    .well {
+        background-color: #fff;
+    }
+
+    .card {
+        background: #fafafa;
+        border-radius: 2px;
+        display: inline-block;
+        height: 350px;
+        margin: 1rem;
+        position: relative;
+        width: 100%;
+    }
+
+    .card-1 {
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+          height: 350px;
+    }
+
+        .card-1:hover {
+            box-shadow: 0 10px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+
+
+    .form {
+        background-color: #fff;
+        margin-top: 50px;
+    }
+
+    .form-control {
+        height: 50px;
+    }
+
+    label {
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 16px;
+        font-weight: 700;
+    }
+    /*Gallery CSS end here*/
+
+
+    /*Review style begin here*/
+
+    .panel-shadow {
+        box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+    }
+
+    .panel-white {
+        border: 1px solid #dddddd;
+    }
+
+        .panel-white .panel-heading {
+            color: #333;
+            background-color: #fff;
+            border-color: #ddd;
+        }
+
+        .panel-white .panel-footer {
+            background-color: #fff;
+            border-color: #ddd;
+        }
+
+    .post .post-heading {
+        height: 95px;
+        padding: 20px 15px;
+    }
+
+        .post .post-heading .avatar {
+            width: 60px;
+            height: 60px;
+            display: block;
+            margin-right: 15px;
+        }
+
+        .post .post-heading .meta .title {
+            margin-bottom: 0;
+        }
+
+            .post .post-heading .meta .title a {
+                color: black;
+            }
+
+                .post .post-heading .meta .title a:hover {
+                    color: #aaaaaa;
+                }
+
+        .post .post-heading .meta .time {
+            margin-top: 8px;
+            color: #999;
+        }
+
+    .post .post-image .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .post .post-description {
+        padding: 15px;
+    }
+
+        .post .post-description p {
+            font-size: 14px;
+        }
+
+        .post .post-description .stats {
+            margin-top: 20px;
+        }
+
+            .post .post-description .stats .stat-item {
+                display: inline-block;
+                margin-right: 15px;
+            }
+
+                .post .post-description .stats .stat-item .icon {
+                    margin-right: 8px;
+                }
+
+
+
+
+
+    /*Review Style end here*/
+
+
+
+    p {
+        padding: 30px;
+    }
+
+
+    .success {
+        color: #fff !important;
+        border: 1px solid #fff !important;
+    }
+
+
+
+    .time {
+        font-weight: 500;
+        color: #1460ab;
+    }
+
+    .rate {
+        font-weight: 500;
+        color: #1460ab;
+    }
+
+    .packname {
+        color: #1460ab;
+    }
+
+    .book {
+        color: #fff;
+        background-color: #ff5a5f;
+        padding: 15px !important;
+        font-size: 14px;
+        border: 1px solid #fff !important;
+    }
+
+    .danger {
+        background-color: #ffb34f;
+        color: #fff !important;
+        padding: 15px !important;
+        font-size: 14px;
+        border: 1px solid #fff !important;
+    }
+
+    .modal {
+        margin-top: -10px !important;
+    }
+
+    .for {
+        padding: 0px 50px 0px 50px !important;
+    }
+
+
+    .form-control {
+        background-color: #fff;
+    }
+
+    .panel-heading {
+        background-color: #f2f4f7;
+    }
+
+    .panel {
+        background-color: #fff;
+    }
+
+    .navbar ul li a {
+        color: #333 !important;
+        margin-right:20px;
+        font-weight:500;
+    }
+
+    footer{
+        background-color:#fff!important;
+    }
+</style>
+
+
+@{ var pac = Model.tblPackages;
+}
+@foreach (var item in pac)
+{
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="tabbable-panel">
+                    <div class="tabbable-line">
+                        <ul class="nav nav-tabs ">
+                            <li class="active nav-item all-space-list">
+                                <a href="#tab_default_1" data-toggle="tab" aria-expanded="true">
+                                    <span class="glyphicon glyphicon-th-list icon">Details</span>
+                                </a>
+                            </li>
+                            <li class="nav-item all-space-list">
+                                <a href="#tab_default_2" data-toggle="tab" aria-expanded="true">
+                                    <span class="glyphicon glyphicon-picture icon"> Gallery </span>
+                                </a>
+                            </li>
+                            <li class="nav-item all-space-list">
+                                <a href="#tab_default_3" data-toggle="tab" aria-expanded="true">
+                                    <span class="glyphicon glyphicon-user icon">User Reviews</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab_default_1">
+                                <div class="row">
+
+                                    <div class="col-lg-8">
+                                        <h3 class="text-left">
+                                            @item.Tour_Name
+
+                                        </h3>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab_default_2">
+                                <div class="row">
+                                    @{ var img = Model.tblGallery;
+                                    }
+                                    @foreach (var item1 in img)
+                                    {
+
+
+                                        <div class="col-lg-6">
+                                            <div class="card card-1">
+                                                <img src="~/Content/Images/@item1.Description" />
+                                                <h3 class="text-center">@item1.Extra</h3>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab_default_3">
+                                <div class="row">
+                                    <div class="col-sm-10">
+
+                                        @{ var rev = Model.tblReview;
+                                        }
+                                        @foreach (var item2 in rev)
+                                        {
+                                            <div class="panel panel-white post panel-shadow">
+                                                <div class="post-heading">
+                                                    <div class="pull-left image">
+                                                        <img src="~/Content/Images/admin.png" class="img-circle avatar" alt="user profile image" height="50" width="50">
+                                                    </div>
+                                                    <div class="pull-left meta">
+                                                        <div class="title h5">
+                                                            <a href="#"><b>@item2.UserName</b></a>
+                                                            made a post.
+                                                        </div>
+                                                        <h6 class="text-muted time">1 minute ago</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="post-description">
+                                                    <p>@item2.Review</p>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="panel-group" id="accordion">
+                    @{ var day = Model.tblDayActivity;
+                        int i = 0;}
+                    @foreach (var iteam3 in day)
+                    {
+                        i = i + 1;
+                        <div class="panel panel-default">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-@i">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <span class="glyphicon glyphicon-plus"></span>  <span> Day @i:</span>  <span>@iteam3.DayTitle</span>
+                                        <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                    </h4>
+                                </div>
+                            </a>
+                            <div id="collapse-@i" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    @iteam3.Description
+                                </div>
+                            </div>
+                        </div>
+
+
+                    }
+                </div>
+                <div class="table-responsive" style="margin-top:15px;">
+                    <table class="table  box table1">
+                        <thead>
+                            <tr>
+                                <th>Trip Start</th>
+                                <th>Price:</th>
+                                <th>Book Package</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Start Date:@item.StartDate</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    End Date:@item.EndDate
+                                </td>
+                                <td>@item.Price</td>
+                                <td>
+                                    <div class="button">
+                                        <a class="btn btn-danger book" data-toggle="modal" data-target="#contact" data-original-title>
+                                            Confirm Now
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Status
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="single category offer">
+                    <h2>Offer Includes </h2>
+                    <p>@item.OfferInclude</p>
+                    <hr />
+
+                </div>
+
+                <div class="single category offer">
+                    <h2>Offer Excludes </h2>
+                    <p>@item.OfferExclude</p>
+                    <hr />
+
+
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="table-responsive col-lg-12">
+                    <table class="table table-bordered box">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>BOOKING CONTACT</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Phone Number:
+                                </td>
+                                <td>12-1345667890</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Email
+                                </td>
+                                <td> sales@tourplanner.com
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <br /><br /><br />
+            <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contactLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="panel-title text-center" id="contactLabel"><span class="glyphicon glyphicon-info-sign"></span> MAKE AN ENQUIRY</h4>
+                        </div>
+                        <h4>
+                            Package Name: <span class="packname"> @item.Tour_Name</span>
+
+                        </h4>
+                        <div class="row">
+                            
+                            <div class="col-lg-8">
+                                <h4 class="text-center">Travel Time:<span class="time">@item.StartDate</span></h4>
+                            </div>
+                            <div class="col-lg-4">
+                                <h4 class="text-center"> Cost: <span class="rate">@item.Price/-</span> </h4>
+                            </div>
+
+                        </div>
+
+                        @using (Html.BeginForm("Details", "Package", FormMethod.Post,
+new { enctype = "multipart/form-data" }))
+                        {
+                            @Html.ValidationSummary(true)
+                            //Model.tblBooking.TourId = item.Tour_ID;
+                            <div class="modal-body" style="padding: 5px;">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 for" style="padding-bottom: 10px;">
+
+
+                                        <h4 style="text-align:left">Full Name:</h4>
+                                        <p>@User.Identity.Name</p>
+                                        @*@Html.HiddenFor(Model => Model.tblBooking.UserId, new { htmlAttributes = new { @class = "form-control" } })*@
+                                        @Html.HiddenFor(model => Model.tblBooking.TourId,
+new { id = "natureOfVisitField", Value = @item.Tour_ID })
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 for" style="padding-bottom: 10px;">
+                                        <h4 style="text-align:left">Contact Number:</h4>
+                                        @Html.EditorFor(Model => Model.tblBooking.Contact, new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 for" style="padding-bottom: 10px;">
+                                        <h4 style="text-align:left">Email:</h4>
+                                        @Html.EditorFor(Model => Model.tblBooking.Email, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.HiddenFor(Model => Model.tblBooking.Remark, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.HiddenFor(Model => Model.tblBooking.DetailInfo, new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-footer" style="margin-bottom:-14px;">
+                                <input type="submit" class="btn btn-success book" value="Book Now" />
+                                <!--<span class="glyphicon glyphicon-ok"></span>-->
+                                <input type="reset" class="btn btn-danger danger" value="Clear" />
+                                <!--<span class="glyphicon glyphicon-remove"></span>-->
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}

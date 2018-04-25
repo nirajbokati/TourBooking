@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "EditProfile";
+    Layout = "~/Views/Shared/_UserDashboard.cshtml";
+}
+
+<style>
+    .forms{
+        padding-top: 30px;
+    }
+
+    .Dashboard {
+        text-decoration: underline !important;
+    }
+</style>
+
+<div class="row forms">
+    <div class="col-lg-9">
+        <div class="form-group">
+            <div class="col-lg-4">
+                <label>Full Name:</label>
+
+            </div>
+            <div class="col-lg-8">
+                <input class="form-control" name="name" />
+                <p> Enter Your Real Name</p>
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            <div class="col-lg-4">
+                <label>Email Address:</label> <br />
+
+
+            </div>
+            <div class="col-lg-8">
+                <input class="form-control" name="email" />
+                <p> Enter valid Email Address</p>
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            <div class="col-lg-4">
+                <label>Date Of Birth:</label> <br />
+
+
+            </div>
+            <div class="col-lg-8">
+                <input class="form-control" type="date" />
+                <p> Select Birth Date</p>
+            </div>
+
+        </div>
+
+        <div class="form-group pull-right">
+            <button class="btn btn-danger pull-right"> Save </button>
+        </div>
+       
+    </div>
+</div>
+

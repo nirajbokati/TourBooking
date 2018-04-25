@@ -1,0 +1,499 @@
+C:\Users\ujal\source\repos\tour\tour\bin\ApplicationInsights.config
+C:\Users\ujal\source\repos\tour\tour\bin\tour.dll.config
+C:\Users\ujal\source\repos\tour\tour\bin\tour.dll
+C:\Users\ujal\source\repos\tour\tour\bin\tour.pdb
+C:\Users\ujal\source\repos\tour\tour\bin\Antlr3.Runtime.dll
+C:\Users\ujal\source\repos\tour\tour\bin\EntityFramework.dll
+C:\Users\ujal\source\repos\tour\tour\bin\EntityFramework.SqlServer.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AI.Web.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Security.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Newtonsoft.Json.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Owin.dll
+C:\Users\ujal\source\repos\tour\tour\bin\System.Web.Helpers.dll
+C:\Users\ujal\source\repos\tour\tour\bin\System.Web.Mvc.dll
+C:\Users\ujal\source\repos\tour\tour\bin\System.Web.Optimization.dll
+C:\Users\ujal\source\repos\tour\tour\bin\System.Web.Razor.dll
+C:\Users\ujal\source\repos\tour\tour\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ujal\source\repos\tour\tour\bin\System.Web.WebPages.dll
+C:\Users\ujal\source\repos\tour\tour\bin\System.Web.WebPages.Razor.dll
+C:\Users\ujal\source\repos\tour\tour\bin\WebGrease.dll
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ujal\source\repos\tour\tour\bin\System.Web.Helpers.xml
+C:\Users\ujal\source\repos\tour\tour\bin\System.Web.Mvc.xml
+C:\Users\ujal\source\repos\tour\tour\bin\System.Web.Optimization.xml
+C:\Users\ujal\source\repos\tour\tour\bin\System.Web.Razor.xml
+C:\Users\ujal\source\repos\tour\tour\bin\System.Web.WebPages.xml
+C:\Users\ujal\source\repos\tour\tour\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ujal\source\repos\tour\tour\bin\System.Web.WebPages.Razor.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Antlr3.Runtime.pdb
+C:\Users\ujal\source\repos\tour\tour\bin\Newtonsoft.Json.xml
+C:\Users\ujal\source\repos\tour\tour\bin\EntityFramework.xml
+C:\Users\ujal\source\repos\tour\tour\bin\EntityFramework.SqlServer.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Security.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ujal\source\repos\tour\tour\bin\Microsoft.AI.Web.xml
+C:\Users\ujal\source\repos\tour\tour\obj\Debug\tour.csproj.CoreCompileInputs.cache
+C:\Users\ujal\source\repos\tour\tour\obj\Debug\tour.dll
+C:\Users\ujal\source\repos\tour\tour\obj\Debug\tour.pdb
+C:\Users\ujal\source\repos\tour\tour\obj\Debug\tour.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\tour\tour\obj\Debug\tour.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\tour\tour\obj\Debug\tour.dll
+C:\Users\user\Desktop\tour\tour\obj\Debug\tour.pdb
+C:\Users\user\Desktop\tour\tour\bin\ApplicationInsights.config
+C:\Users\user\Desktop\tour\tour\bin\tour.dll.config
+C:\Users\user\Desktop\tour\tour\bin\tour.dll
+C:\Users\user\Desktop\tour\tour\bin\tour.pdb
+C:\Users\user\Desktop\tour\tour\bin\Antlr3.Runtime.dll
+C:\Users\user\Desktop\tour\tour\bin\EntityFramework.dll
+C:\Users\user\Desktop\tour\tour\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AI.Web.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.ApplicationInsights.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Security.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Desktop\tour\tour\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\tour\tour\bin\Owin.dll
+C:\Users\user\Desktop\tour\tour\bin\System.Web.Helpers.dll
+C:\Users\user\Desktop\tour\tour\bin\System.Web.Mvc.dll
+C:\Users\user\Desktop\tour\tour\bin\System.Web.Optimization.dll
+C:\Users\user\Desktop\tour\tour\bin\System.Web.Razor.dll
+C:\Users\user\Desktop\tour\tour\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Desktop\tour\tour\bin\System.Web.WebPages.dll
+C:\Users\user\Desktop\tour\tour\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Desktop\tour\tour\bin\WebGrease.dll
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\tour\tour\bin\System.Web.Helpers.xml
+C:\Users\user\Desktop\tour\tour\bin\System.Web.Mvc.xml
+C:\Users\user\Desktop\tour\tour\bin\System.Web.Optimization.xml
+C:\Users\user\Desktop\tour\tour\bin\System.Web.Razor.xml
+C:\Users\user\Desktop\tour\tour\bin\System.Web.WebPages.xml
+C:\Users\user\Desktop\tour\tour\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Desktop\tour\tour\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Desktop\tour\tour\bin\Antlr3.Runtime.pdb
+C:\Users\user\Desktop\tour\tour\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\tour\tour\bin\EntityFramework.xml
+C:\Users\user\Desktop\tour\tour\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Security.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.ApplicationInsights.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\user\Desktop\tour\tour\bin\Microsoft.AI.Web.xml
+C:\Users\user\Desktop\tour\tour\obj\Debug\tour.csproj.CopyComplete
+C:\Users\ujal\Desktop\tour\tour\tour\bin\ApplicationInsights.config
+C:\Users\ujal\Desktop\tour\tour\tour\bin\tour.dll.config
+C:\Users\ujal\Desktop\tour\tour\tour\bin\tour.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\tour.pdb
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Antlr3.Runtime.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\EntityFramework.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\EntityFramework.SqlServer.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AI.Web.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Security.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Newtonsoft.Json.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Owin.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\System.Web.Helpers.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\System.Web.Mvc.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\System.Web.Optimization.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\System.Web.Razor.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\System.Web.WebPages.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\System.Web.WebPages.Razor.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\WebGrease.dll
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\System.Web.Helpers.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\System.Web.Mvc.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\System.Web.Optimization.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\System.Web.Razor.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\System.Web.WebPages.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\System.Web.WebPages.Razor.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Antlr3.Runtime.pdb
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Newtonsoft.Json.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\EntityFramework.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\EntityFramework.SqlServer.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Security.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ujal\Desktop\tour\tour\tour\bin\Microsoft.AI.Web.xml
+C:\Users\ujal\Desktop\tour\tour\tour\obj\Debug\tour.csproj.CoreCompileInputs.cache
+C:\Users\ujal\Desktop\tour\tour\tour\obj\Debug\tour.dll
+C:\Users\ujal\Desktop\tour\tour\tour\obj\Debug\tour.pdb
+C:\Users\ujal\Desktop\tour\tour\tour\obj\Debug\tour.csprojResolveAssemblyReference.cache
+C:\Users\Me\Downloads\tour\tour\bin\ApplicationInsights.config
+C:\Users\Me\Downloads\tour\tour\bin\tour.dll.config
+C:\Users\Me\Downloads\tour\tour\bin\tour.dll
+C:\Users\Me\Downloads\tour\tour\bin\tour.pdb
+C:\Users\Me\Downloads\tour\tour\bin\Antlr3.Runtime.dll
+C:\Users\Me\Downloads\tour\tour\bin\EntityFramework.dll
+C:\Users\Me\Downloads\tour\tour\bin\EntityFramework.SqlServer.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AI.Web.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Security.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Me\Downloads\tour\tour\bin\Newtonsoft.Json.dll
+C:\Users\Me\Downloads\tour\tour\bin\Owin.dll
+C:\Users\Me\Downloads\tour\tour\bin\System.Web.Helpers.dll
+C:\Users\Me\Downloads\tour\tour\bin\System.Web.Mvc.dll
+C:\Users\Me\Downloads\tour\tour\bin\System.Web.Optimization.dll
+C:\Users\Me\Downloads\tour\tour\bin\System.Web.Razor.dll
+C:\Users\Me\Downloads\tour\tour\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Me\Downloads\tour\tour\bin\System.Web.WebPages.dll
+C:\Users\Me\Downloads\tour\tour\bin\System.Web.WebPages.Razor.dll
+C:\Users\Me\Downloads\tour\tour\bin\WebGrease.dll
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Me\Downloads\tour\tour\bin\System.Web.Helpers.xml
+C:\Users\Me\Downloads\tour\tour\bin\System.Web.Mvc.xml
+C:\Users\Me\Downloads\tour\tour\bin\System.Web.Optimization.xml
+C:\Users\Me\Downloads\tour\tour\bin\System.Web.Razor.xml
+C:\Users\Me\Downloads\tour\tour\bin\System.Web.WebPages.xml
+C:\Users\Me\Downloads\tour\tour\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Me\Downloads\tour\tour\bin\System.Web.WebPages.Razor.xml
+C:\Users\Me\Downloads\tour\tour\bin\Antlr3.Runtime.pdb
+C:\Users\Me\Downloads\tour\tour\bin\Newtonsoft.Json.xml
+C:\Users\Me\Downloads\tour\tour\bin\EntityFramework.xml
+C:\Users\Me\Downloads\tour\tour\bin\EntityFramework.SqlServer.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Security.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Me\Downloads\tour\tour\bin\Microsoft.AI.Web.xml
+C:\Users\Me\Downloads\tour\tour\obj\Debug\tour.csprojResolveAssemblyReference.cache
+C:\Users\Me\Downloads\tour\tour\obj\Debug\tour.csproj.CoreCompileInputs.cache
+C:\Users\Me\Downloads\tour\tour\obj\Debug\tour.dll
+C:\Users\Me\Downloads\tour\tour\obj\Debug\tour.pdb
+C:\Users\Me\Desktop\tour\tour\bin\ApplicationInsights.config
+C:\Users\Me\Desktop\tour\tour\bin\tour.dll.config
+C:\Users\Me\Desktop\tour\tour\bin\tour.dll
+C:\Users\Me\Desktop\tour\tour\bin\tour.pdb
+C:\Users\Me\Desktop\tour\tour\bin\Antlr3.Runtime.dll
+C:\Users\Me\Desktop\tour\tour\bin\EntityFramework.dll
+C:\Users\Me\Desktop\tour\tour\bin\EntityFramework.SqlServer.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AI.Web.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Security.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Me\Desktop\tour\tour\bin\Newtonsoft.Json.dll
+C:\Users\Me\Desktop\tour\tour\bin\Owin.dll
+C:\Users\Me\Desktop\tour\tour\bin\System.Web.Helpers.dll
+C:\Users\Me\Desktop\tour\tour\bin\System.Web.Mvc.dll
+C:\Users\Me\Desktop\tour\tour\bin\System.Web.Optimization.dll
+C:\Users\Me\Desktop\tour\tour\bin\System.Web.Razor.dll
+C:\Users\Me\Desktop\tour\tour\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Me\Desktop\tour\tour\bin\System.Web.WebPages.dll
+C:\Users\Me\Desktop\tour\tour\bin\System.Web.WebPages.Razor.dll
+C:\Users\Me\Desktop\tour\tour\bin\WebGrease.dll
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Me\Desktop\tour\tour\bin\System.Web.Helpers.xml
+C:\Users\Me\Desktop\tour\tour\bin\System.Web.Mvc.xml
+C:\Users\Me\Desktop\tour\tour\bin\System.Web.Optimization.xml
+C:\Users\Me\Desktop\tour\tour\bin\System.Web.Razor.xml
+C:\Users\Me\Desktop\tour\tour\bin\System.Web.WebPages.xml
+C:\Users\Me\Desktop\tour\tour\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Me\Desktop\tour\tour\bin\System.Web.WebPages.Razor.xml
+C:\Users\Me\Desktop\tour\tour\bin\Antlr3.Runtime.pdb
+C:\Users\Me\Desktop\tour\tour\bin\Newtonsoft.Json.xml
+C:\Users\Me\Desktop\tour\tour\bin\EntityFramework.xml
+C:\Users\Me\Desktop\tour\tour\bin\EntityFramework.SqlServer.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Security.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Me\Desktop\tour\tour\bin\Microsoft.AI.Web.xml
+C:\Users\Me\Desktop\tour\tour\obj\Debug\tour.csprojResolveAssemblyReference.cache
+C:\Users\Me\Desktop\tour\tour\obj\Debug\tour.csproj.CoreCompileInputs.cache
+C:\Users\Me\Desktop\tour\tour\obj\Debug\tour.dll
+C:\Users\Me\Desktop\tour\tour\obj\Debug\tour.pdb
+D:\Developer\visual studio\tour\tour\bin\ApplicationInsights.config
+D:\Developer\visual studio\tour\tour\bin\tour.dll.config
+D:\Developer\visual studio\tour\tour\bin\tour.dll
+D:\Developer\visual studio\tour\tour\bin\tour.pdb
+D:\Developer\visual studio\tour\tour\bin\Antlr3.Runtime.dll
+D:\Developer\visual studio\tour\tour\bin\EntityFramework.dll
+D:\Developer\visual studio\tour\tour\bin\EntityFramework.SqlServer.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AI.DependencyCollector.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AI.Web.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AI.WindowsServer.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.ApplicationInsights.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Security.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Security.Google.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Web.Infrastructure.dll
+D:\Developer\visual studio\tour\tour\bin\Newtonsoft.Json.dll
+D:\Developer\visual studio\tour\tour\bin\Owin.dll
+D:\Developer\visual studio\tour\tour\bin\System.Web.Helpers.dll
+D:\Developer\visual studio\tour\tour\bin\System.Web.Mvc.dll
+D:\Developer\visual studio\tour\tour\bin\System.Web.Optimization.dll
+D:\Developer\visual studio\tour\tour\bin\System.Web.Razor.dll
+D:\Developer\visual studio\tour\tour\bin\System.Web.WebPages.Deployment.dll
+D:\Developer\visual studio\tour\tour\bin\System.Web.WebPages.dll
+D:\Developer\visual studio\tour\tour\bin\System.Web.WebPages.Razor.dll
+D:\Developer\visual studio\tour\tour\bin\WebGrease.dll
+D:\Developer\visual studio\tour\tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Developer\visual studio\tour\tour\bin\System.Web.Helpers.xml
+D:\Developer\visual studio\tour\tour\bin\System.Web.Mvc.xml
+D:\Developer\visual studio\tour\tour\bin\System.Web.Optimization.xml
+D:\Developer\visual studio\tour\tour\bin\System.Web.Razor.xml
+D:\Developer\visual studio\tour\tour\bin\System.Web.WebPages.xml
+D:\Developer\visual studio\tour\tour\bin\System.Web.WebPages.Deployment.xml
+D:\Developer\visual studio\tour\tour\bin\System.Web.WebPages.Razor.xml
+D:\Developer\visual studio\tour\tour\bin\Antlr3.Runtime.pdb
+D:\Developer\visual studio\tour\tour\bin\Newtonsoft.Json.xml
+D:\Developer\visual studio\tour\tour\bin\EntityFramework.xml
+D:\Developer\visual studio\tour\tour\bin\EntityFramework.SqlServer.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Security.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Security.Google.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.ApplicationInsights.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AI.DependencyCollector.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AI.WindowsServer.xml
+D:\Developer\visual studio\tour\tour\bin\Microsoft.AI.Web.xml
+D:\Developer\visual studio\tour\tour\obj\Debug\tour.csprojResolveAssemblyReference.cache
+D:\Developer\visual studio\tour\tour\obj\Debug\tour.csproj.CoreCompileInputs.cache
+D:\Developer\visual studio\tour\tour\obj\Debug\tour.csproj.CopyComplete
+D:\Developer\visual studio\tour\tour\obj\Debug\tour.dll
+D:\Developer\visual studio\tour\tour\obj\Debug\tour.pdb
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\ApplicationInsights.config
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\tour.dll.config
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\tour.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\tour.pdb
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Antlr3.Runtime.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\EntityFramework.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\EntityFramework.SqlServer.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AI.Web.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.ApplicationInsights.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Security.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Newtonsoft.Json.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Owin.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\System.Web.Helpers.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\System.Web.Mvc.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\System.Web.Optimization.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\System.Web.Razor.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\System.Web.WebPages.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\System.Web.WebPages.Razor.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\WebGrease.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\System.Web.Helpers.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\System.Web.Mvc.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\System.Web.Optimization.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\System.Web.Razor.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\System.Web.WebPages.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\System.Web.WebPages.Razor.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Antlr3.Runtime.pdb
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Newtonsoft.Json.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\EntityFramework.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\EntityFramework.SqlServer.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Security.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.ApplicationInsights.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\bin\Microsoft.AI.Web.xml
+C:\Users\dir0130\Desktop\visual studio\tour\tour\obj\Debug\tour.csprojResolveAssemblyReference.cache
+C:\Users\dir0130\Desktop\visual studio\tour\tour\obj\Debug\tour.csproj.CoreCompileInputs.cache
+C:\Users\dir0130\Desktop\visual studio\tour\tour\obj\Debug\tour.csproj.CopyComplete
+C:\Users\dir0130\Desktop\visual studio\tour\tour\obj\Debug\tour.dll
+C:\Users\dir0130\Desktop\visual studio\tour\tour\obj\Debug\tour.pdb

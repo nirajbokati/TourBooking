@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TourBookingModelStoreContainer" CdmEntityContainer="TourBookingEntities2">
+    <EntitySetMapping Name="Logins">
+      <EntityTypeMapping TypeName="TourBookingModel.Login">
+        <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="TourBookingModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+          <ScalarProperty Name="role1" ColumnName="role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="TourBookingModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblBookings">
+      <EntityTypeMapping TypeName="TourBookingModel.tblBooking">
+        <MappingFragment StoreEntitySet="tblBooking">
+          <ScalarProperty Name="BookingId" ColumnName="BookingId" />
+          <ScalarProperty Name="TourId" ColumnName="TourId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="DetailInfo" ColumnName="DetailInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDayActivities">
+      <EntityTypeMapping TypeName="TourBookingModel.tblDayActivity">
+        <MappingFragment StoreEntitySet="tblDayActivity">
+          <ScalarProperty Name="DayID" ColumnName="DayID" />
+          <ScalarProperty Name="DayTitle" ColumnName="DayTitle" />
+          <ScalarProperty Name="Tour_ID" ColumnName="Tour_ID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+          <ScalarProperty Name="ExtraTwo" ColumnName="ExtraTwo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblGalleries">
+      <EntityTypeMapping TypeName="TourBookingModel.tblGallery">
+        <MappingFragment StoreEntitySet="tblGallery">
+          <ScalarProperty Name="Image_ID" ColumnName="Image_ID" />
+          <ScalarProperty Name="Tour_ID" ColumnName="Tour_ID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+          <ScalarProperty Name="ExtraTwo" ColumnName="ExtraTwo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPackages">
+      <EntityTypeMapping TypeName="TourBookingModel.tblPackage">
+        <MappingFragment StoreEntitySet="tblPackage">
+          <ScalarProperty Name="Tour_ID" ColumnName="Tour_ID" />
+          <ScalarProperty Name="Tour_Name" ColumnName="Tour_Name" />
+          <ScalarProperty Name="Package_Image" ColumnName="Package_Image" />
+          <ScalarProperty Name="Packagedetails" ColumnName="Packagedetails" />
+          <ScalarProperty Name="OfferInclude" ColumnName="OfferInclude" />
+          <ScalarProperty Name="OfferExclude" ColumnName="OfferExclude" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+          <ScalarProperty Name="Extratwo" ColumnName="Extratwo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblReviews">
+      <EntityTypeMapping TypeName="TourBookingModel.tblReview">
+        <MappingFragment StoreEntitySet="tblReview">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Review" ColumnName="Review" />
+          <ScalarProperty Name="Tour_ID" ColumnName="Tour_ID" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="DbBookingSelect" FunctionName="TourBookingModel.Store.DbBookingSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TourBookingModel.DbBookingSelect_Result">
+          <ScalarProperty Name="BookingId" ColumnName="BookingId" />
+          <ScalarProperty Name="TourId" ColumnName="TourId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="DetailInfo" ColumnName="DetailInfo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DbDayActivitySelect" FunctionName="TourBookingModel.Store.DbDayActivitySelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TourBookingModel.DbDayActivitySelect_Result">
+          <ScalarProperty Name="DayID" ColumnName="DayID" />
+          <ScalarProperty Name="DayTitle" ColumnName="DayTitle" />
+          <ScalarProperty Name="Tour_ID" ColumnName="Tour_ID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+          <ScalarProperty Name="ExtraTwo" ColumnName="ExtraTwo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DbDayActivitySelectPac" FunctionName="TourBookingModel.Store.DbDayActivitySelectPac">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TourBookingModel.DbDayActivitySelectPac_Result">
+          <ScalarProperty Name="DayID" ColumnName="DayID" />
+          <ScalarProperty Name="DayTitle" ColumnName="DayTitle" />
+          <ScalarProperty Name="Tour_ID" ColumnName="Tour_ID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+          <ScalarProperty Name="ExtraTwo" ColumnName="ExtraTwo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DbGallerySelect" FunctionName="TourBookingModel.Store.DbGallerySelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TourBookingModel.DbGallerySelect_Result">
+          <ScalarProperty Name="Image_ID" ColumnName="Image_ID" />
+          <ScalarProperty Name="Tour_ID" ColumnName="Tour_ID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+          <ScalarProperty Name="ExtraTwo" ColumnName="ExtraTwo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DbGallerySelectPac" FunctionName="TourBookingModel.Store.DbGallerySelectPac">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TourBookingModel.DbGallerySelectPac_Result">
+          <ScalarProperty Name="Image_ID" ColumnName="Image_ID" />
+          <ScalarProperty Name="Tour_ID" ColumnName="Tour_ID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+          <ScalarProperty Name="ExtraTwo" ColumnName="ExtraTwo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DbPackageSelect" FunctionName="TourBookingModel.Store.DbPackageSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TourBookingModel.DbPackageSelect_Result">
+          <ScalarProperty Name="Tour_ID" ColumnName="Tour_ID" />
+          <ScalarProperty Name="Tour_Name" ColumnName="Tour_Name" />
+          <ScalarProperty Name="Package_Image" ColumnName="Package_Image" />
+          <ScalarProperty Name="Packagedetails" ColumnName="Packagedetails" />
+          <ScalarProperty Name="OfferInclude" ColumnName="OfferInclude" />
+          <ScalarProperty Name="OfferExclude" ColumnName="OfferExclude" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+          <ScalarProperty Name="Extratwo" ColumnName="Extratwo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DbPackageSelectPac" FunctionName="TourBookingModel.Store.DbPackageSelectPac">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TourBookingModel.DbPackageSelectPac_Result">
+          <ScalarProperty Name="Tour_ID" ColumnName="Tour_ID" />
+          <ScalarProperty Name="Tour_Name" ColumnName="Tour_Name" />
+          <ScalarProperty Name="Package_Image" ColumnName="Package_Image" />
+          <ScalarProperty Name="Packagedetails" ColumnName="Packagedetails" />
+          <ScalarProperty Name="OfferInclude" ColumnName="OfferInclude" />
+          <ScalarProperty Name="OfferExclude" ColumnName="OfferExclude" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+          <ScalarProperty Name="Extratwo" ColumnName="Extratwo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DbRevieSelect" FunctionName="TourBookingModel.Store.DbRevieSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TourBookingModel.DbRevieSelect_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Review" ColumnName="Review" />
+          <ScalarProperty Name="Tour_ID" ColumnName="Tour_ID" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DbReviewSelectPac" FunctionName="TourBookingModel.Store.DbReviewSelectPac">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TourBookingModel.DbReviewSelectPac_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Review" ColumnName="Review" />
+          <ScalarProperty Name="Tour_ID" ColumnName="Tour_ID" />
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="LoginByUsernamePassword" FunctionName="TourBookingModel.Store.LoginByUsernamePassword">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TourBookingModel.LoginByUsernamePassword_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="TourBookingModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="TourBookingModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="TourBookingModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="TourBookingModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TourBookingModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="TourBookingModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TourBookingModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="TourBookingModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="TourBookingModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

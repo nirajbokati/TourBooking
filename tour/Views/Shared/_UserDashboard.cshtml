@@ -1,0 +1,135 @@
+﻿@{
+    ViewBag.Title = "UserDashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<style>
+
+    body {
+        background-color: #ededed;
+    }
+
+    table th {
+        background-color: #f2f4f7;
+        padding: 10px;
+    }
+
+    .btn {
+        background-color: #fb3535 !important;
+        border: none !important;
+        color: #fff;
+    }
+
+    .secondnav {
+        background-color: #5f5f5f !important;
+        padding:5px;
+       
+    }
+
+        .secondnav ul li a {
+            color: #fff !important;
+        }
+    input[type=search] {
+        border: #fff;
+        padding: 15px 10px 15px 32px;
+        width: 145px;
+    }
+
+    
+
+        .secondnav ul li a {
+            color: #fff !important;
+        }
+
+    .secondcontainer {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navs {
+        margin-top: 30px;
+    }
+
+        .navs ul li {
+            list-style: none;
+            margin-bottom: 20px;
+            text-align: left !important;
+        }
+
+            .navs ul li a {
+                margin-top: 10px;
+            }
+
+    .panel {
+        border: 1px solid #bbbbbb;
+        margin-top: 30px;
+    }
+
+    .panel-heading {
+        background-color: #ddd;
+        padding: 5px;
+    }
+
+    p {
+        text-align: left !important;
+    }
+
+    .dashboard{
+        background-color:#fff;
+    }
+
+    .footer{
+        background-color:#fff;
+    }
+</style>
+
+<body>
+    <div class="container" style="margin-left:120px;">
+
+        <div class="row">
+            <div class="col-lg-11 col-lg-offset-1">
+                <div class="navbar-default  secondnav" style="margin-top:100px;">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 col-lg-offset-1">
+                                <div class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav pull-left ">
+                                        <li> <a href="/User/Overview" class="Dashboard"> Dashboard</a></li>
+                                        <li> <a href="/User/Booking"> Booked Packages</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+        <div class="row col-lg-offset-1 dashboard">
+            <div class="col-lg-3">
+                <div class="navs">
+
+                    <ul>
+                        <li><a href="/User/Overview">Overview</a> </li>
+                        <li><a href="/User/EditProfile">Edit Profile</a> </li>
+                        <li><a href="/User/ChangePassword">Change Password</a> </li>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                @RenderBody()
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+

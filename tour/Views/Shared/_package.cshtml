@@ -1,0 +1,18 @@
+﻿@model IEnumerable<tour.Models.tblPackage>
+   
+
+   
+<div class="container-fluid" style="margin-top:120px;">
+    @foreach (var item in Model)
+    {
+
+<div class="card card-1">
+    <a href="/Package/Details?tourId=@item.Tour_ID">
+        <img src="~/Content/Images/@item.Package_Image" />
+        <h4>@item.Tour_Name</h4>
+
+    </a>
+</div>
+}
+    <p>@ViewData</p>
+</div>

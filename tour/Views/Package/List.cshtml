@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+
+    .btn {
+        background-color: #ff5a5f;
+        color: #f2f2f2;
+        line-height: 22px;
+    }
+
+    .card > a {
+        font-weight: 900 !important;
+        font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+        font-size: 32px !important;
+        line-height: 32px !important;
+        letter-spacing: -0.5px !important;
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+        color: #484848 !important;
+        text-decoration: none;
+    }
+</style>
+
+
+
+@Html.Action("_package")

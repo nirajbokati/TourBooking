@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/admincustom.css" rel="stylesheet" />
+    <link href="~/Content/AdminSidebar.css" rel="stylesheet" />
+
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/AddDestination.css" rel="stylesheet" />
+
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+
+    <style>
+        body {
+            background-color: #eee;
+            overflow-x: hidden;
+        }
+
+        .row {
+            background-color: #eee;
+        }
+
+        .bs-pricing-four .bs-pricing .cotent {
+            color: #333 !important;
+        }
+
+        .topbar {
+            margin-left: -14px;
+            width: 79%;
+        }
+
+        a {
+            color: #333 !important;
+        }
+
+        hr {
+            color: #808080;
+        }
+
+        ul {
+            margin-top: 10px;
+        }
+
+        .stylish-input-group .input-group-addon {
+            background: white !important;
+            margin-top: 10px;
+        }
+
+        .stylish-input-group .form-control {
+            border-right: 0;
+            box-shadow: 0 0 0;
+            border-color: #ccc;
+            height: 50px;
+        }
+
+        .stylish-input-group button {
+            border: 0;
+            background: transparent;
+        }
+
+        .navbar {
+            margin-left: 250px;
+        }
+
+        .sidebar {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            margin-left: 10px;
+        }
+
+       #account {
+            color: #fff;
+            padding:10px!important;
+            
+        }
+
+        .dropdown > .btn {
+          
+            color:#fff;
+            margin-top:10px;
+        }
+
+        .btn-primary {
+          margin-left:-50px!important;
+            color: #000 !important;        
+        }
+
+        .dropdown-menu{
+            margin-left:-50px!important;
+        }
+        
+        .btn-sm {
+            width: 100% !important;
+            padding: 2px !important;
+            border: none;
+        }
+
+        .topbar {
+            background-color: #fff;
+            height: 50px;
+        }
+
+        .caret{
+            color:#fff!important;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="row">
+        <div class="col-lg-2 sidebar">
+            <section id="bs-pricing-six" class="bs-pricing-four roomy-50 bg-white fix">
+                <div class="bs bs-pricing">
+                    <div class="cotent">
+                        <h3>Tour Planner</h3>
+                        <img src="~/Content/Images/admin.png" width="80" height="80" />
+                        <h5 class="category">Admin Name </h5>
+                        <hr />
+                        <ul>
+                            <li><a href="/Admin/Index" class="index">Home </a></li>
+                            <li><a href="/Admin/bookinglist" class="bookinglist">Booked Package </a></li>
+                            <li><a href="/Admin/packagelist" class="packagelist"> Package List</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="col-lg-1 col-lg-offset-8 dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span id="account">Account</span> 
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="#">
+                        <button class="btn btn-default btn-sm">General Settings </button>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <button class="btn btn-default btn-sm"> Privacy Settings </button>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <button class="btn btn-default btn-sm"> Logout </button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+       
+
+        @RenderBody()
+    </div>
+</body>
+</html>
+
